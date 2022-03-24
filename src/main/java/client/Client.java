@@ -28,7 +28,7 @@ import dbconnection.DBConnection;
 
 public class Client extends JFrame implements ActionListener {
 
-	String username;
+    String username;
     PrintWriter printWriter;
     BufferedReader bufferedReader;
     JTextArea  chatmsg;

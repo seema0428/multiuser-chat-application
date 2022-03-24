@@ -12,7 +12,7 @@ import dbconnection.DBConnection;
 
 public class Server {
 
-	private static ArrayList<String> users = new ArrayList<String>();
+    private static ArrayList<String> users = new ArrayList<String>();
     private static ArrayList<MessagingThread> clients = new ArrayList<MessagingThread>();
 
     public static void main(String[] args) throws Exception {

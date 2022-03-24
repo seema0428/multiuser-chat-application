@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class DBConnection {
 
-	private static volatile Connection connection;
+    private static volatile Connection connection;
     
     public static void getConnection() throws SQLException {
 
