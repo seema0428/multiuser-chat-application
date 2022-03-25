@@ -109,6 +109,10 @@ public class Client extends JFrame implements ActionListener {
     public static void main(String[] args) {
         String userName = JOptionPane.showInputDialog(null,"Please enter your name to begin:", "Chat Application",
                 JOptionPane.PLAIN_MESSAGE);
+        if(userName == null || (userName != null && ("".equals(userName))))   
+        {
+            return;
+        }
         String servername = "localhost";
         try {
             new Client( userName ,servername);
